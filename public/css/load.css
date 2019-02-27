@@ -1,0 +1,60 @@
+.load_box {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                z-index: 30;
+                background: #000;
+                overflow: hidden;
+                    z-index: 999999999999;
+            }
+            .brand_mack, .zoom_round {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+            }
+            .brand_mack {
+                width: 32px;
+                height: 32px;
+                margin-left: -16px;
+                margin-top: -16px;
+            }
+
+            .zoom_round{
+                display: block;
+                left: 50%;
+                position: absolute;
+                top: 50%;
+                border: solid #fff 3px;
+                border-radius: 50%; 
+                width: 160px;
+                height: 160px;
+                margin-left: -83px;
+                margin-top: -83px;
+            }
+            .zoom_round_1{
+                -webkit-animation:zoom_round 4s infinite linear;
+                opacity: 0;
+            }
+             @-webkit-keyframes zoom_round{
+                0%{
+                    -webkit-transform:scale(0.22,0.22)  ;
+                    opacity: 1; 
+                }
+                50%{
+                    -webkit-transform:scale(0.5,0.5) ;
+                    opacity: 0.7;
+                }
+                100%{
+                    -webkit-transform:scale(1,1)  ;
+                    opacity: 0;
+                }
+            }
+            .zoom_round_2{
+                -webkit-animation:zoom_round 4s infinite 2s  linear;
+                opacity: 0;
+            }
+
+            .zoom_round_3{
+                -webkit-animation:zoom_round  4s infinite linear 3s;
+                opacity: 0;
+            }

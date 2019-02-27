@@ -1,0 +1,10 @@
+//这个文档用于讲解public下各个JS的用处
+
+ajaxfileupload.js		上传图片用
+check.js				校验手机号，身份证等
+games.js				游戏相关接口框架
+icon.js					默认播放音乐用
+jquery					js框架
+load.js					微策加载默认
+rem.js					
+swiper					手机滑动框架

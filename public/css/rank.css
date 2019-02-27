@@ -1,0 +1,116 @@
+.rank-box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	overflow: hidden;
+	display: none;
+	overflow-y: auto;
+	z-index:100;
+}
+
+.top-box {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding: 3%;
+	background: #4099EB;
+	background-image: linear-gradient(-45deg, #4099EB 100px, #4D54A4 200px);
+	border-radius: 0px 0px 8px 8px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #fff;
+}
+
+.top-box>p {
+	border: 1px solid blue;
+	border-color: transparent;
+	margin-top: 5%;
+	text-align: center;
+	color: #fff;
+	
+}
+
+.my-message {
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 5%;
+	overflow: hidden;
+}
+
+.my-message>div {
+	position: relative;
+	text-align: center;
+	float: left;
+}
+
+.my-headimg {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.my-headimg>img {
+	position: relative;
+	border-radius: 50%;
+}
+
+.my-order,
+.my-score {
+	margin-top: 35%;
+}
+
+.down-box {
+	position: relative;
+	width: 100%;
+	height: 63%;
+	overflow: hidden;
+}
+
+.rank-ul {
+	position: relative;
+	width: 96%;
+	margin: 0 auto;
+	overflow-y: scroll;
+}
+
+.down-box>ul>li {
+	list-style: none;
+	height: 3.9rem;
+	margin-top: 2%;
+	border-top: 1px solid #fff;
+	border-color: transparent;
+	overflow: hidden;
+}
+
+.rank-ul>li>div {
+	float: left;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+	line-height: 4rem;
+}
+
+.headimg>img {
+	position: relative;
+	width: 3.8rem;
+	height: 3.8rem;
+	border-radius: 100%;
+}
+
+.nickname {
+	word-break: break-all;
+}
+
+.btn-close {
+	position: absolute;
+	z-index: 1;
+	width: 15%;
+	right: 0%;
+	top: 1%;
+}
+.hide {
+    display: none;
+}

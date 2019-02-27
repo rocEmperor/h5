@@ -1,0 +1,21 @@
+/*音乐按钮动画*/
+.iocn {
+	width:0.6rem;
+	height:0.6rem;
+    position: absolute;
+    top:0.26rem;  
+    right: 0.26rem;
+    z-index: 999;
+    -webkit-animation: rote 1.5s infinite linear ;
+}
+.iocn_1{
+    -webkit-animation:iocn 1s infinite linear;
+}
+@-webkit-keyframes iocn{
+    0%{opacity:1;
+        -webkit-transform: rotate(0deg);
+      }
+    100%{opacity:1;
+        -webkit-transform: rotate(-360deg);
+      }
+}
